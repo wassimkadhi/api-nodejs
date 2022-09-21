@@ -15,10 +15,17 @@ const LivreModel =mongoose.model(
             required : true
         } , 
 
+
+        vacance: {
+            type:String , 
+            required : true
+        } ,       
         date :{
             type :Date  ,
             default :Date.now
         }
+
+
 
     },
     "livre"
